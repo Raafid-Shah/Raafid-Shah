@@ -1,35 +1,25 @@
 <div align="center">
 
 <!-- CLICKABLE CRT MONITOR HERO -->
-<a href="https://LLamaSan.github.io/pixelbox" target="_blank" rel="noopener noreferrer">
+<a href="https://raafid-shah.github.io/pixelbox-v2/" target="_blank" rel="noopener noreferrer">
   <img src="./assets/crt-hero.svg" alt="Click to Launch PIXELBOX Interactive CRT Portfolio" width="100%" />
 </a>
 
 <br/>
 
 <!-- HIGH-CONTRAST ACTION BAR -->
-<a href="https://LLamaSan.github.io/pixelbox" target="_blank">
-  <img src="https://img.shields.io/badge/🕹️_BOOT_PIXELBOX_CRT-LIVE_WEBGL_EXPERIENCE-ff6b00?style=for-the-badge&labelColor=111111" alt="Boot Live Portfolio" />
+<a href="https://raafid-shah.github.io/pixelbox-v2/" target="_blank">
+  <img src="https://img.shields.io/badge/🕹️_BOOT_PIXELBOX_CRT-LIVE_WEBGL_PORTFOLIO-ff6b00?style=for-the-badge&labelColor=111111" alt="Boot Live Portfolio" />
 </a>
-<a href="https://github.com/LLamaSan/LiveTube" target="_blank">
+<a href="https://github.com/Raafid-Shah/LiveTube" target="_blank">
   <img src="https://img.shields.io/badge/📼_FEATURED_BUILD-LIVETUBE_VOD-2ea44f?style=for-the-badge&labelColor=111111" alt="LiveTube Repo" />
 </a>
-<a href="mailto:your.email@example.com">
-  <img src="https://img.shields.io/badge/⚡_SIGNAL-PING_ME-f4f4f6?style=for-the-badge&labelColor=111111" alt="Contact" />
-</a>
-
-<br/><br/>
-
-> **⚠️ WARNING: STATIC MARKDOWN CANNOT RENDER 60 FPS SHADERS.**  
-> *Click the CRT monitor above to exit GitHub's sandbox and enter my live WebGL2 workstation.*
 
 </div>
 
 ---
 
 ### 📼 INSERT CARTRIDGE // SELECT MEMORY BANK
-
-Instead of scrolling through walls of text, explore the core systems loaded into the **PIXELBOX** engine:
 
 <table>
   <tr>
@@ -46,8 +36,8 @@ Instead of scrolling through walls of text, explore the core systems loaded into
         <img src="https://img.shields.io/badge/tRPC_v11-111111?style=flat-square&logo=trpc&logoColor=ff6b00" />
         <img src="https://img.shields.io/badge/Neon_Postgres-111111?style=flat-square&logo=postgresql&logoColor=ff6b00" />
       </p>
-      <a href="https://github.com/LLamaSan/LiveTube"><code>[ INSPECT SOURCE ]</code></a> • 
-      <a href="https://LLamaSan.github.io/pixelbox"><code>[ LAUNCH IN CRT ]</code></a>
+      <a href="https://github.com/Raafid-Shah/LiveTube"><code>[ INSPECT SOURCE ]</code></a> • 
+      <a href="https://raafid-shah.github.io/pixelbox-v2/"><code>[ LAUNCH IN CRT ]</code></a>
     </td>
     <td width="50%" valign="top">
       <h4>🧱 CARTRIDGE 02 // TETRODORO</h4>
@@ -62,8 +52,8 @@ Instead of scrolling through walls of text, explore the core systems loaded into
         <img src="https://img.shields.io/badge/HTML5_Canvas-111111?style=flat-square&logo=html5&logoColor=ff6b00" />
         <img src="https://img.shields.io/badge/WebAudio-111111?style=flat-square&logo=webcomponentsdotorg&logoColor=ff6b00" />
       </p>
-      <a href="https://github.com/LLamaSan/tetrodoro"><code>[ INSPECT SOURCE ]</code></a> • 
-      <a href="https://LLamaSan.github.io/pixelbox"><code>[ LAUNCH IN CRT ]</code></a>
+      <a href="https://github.com/Raafid-Shah/tetrodoro"><code>[ INSPECT SOURCE ]</code></a> • 
+      <a href="https://raafid-shah.github.io/pixelbox-v2/"><code>[ LAUNCH IN CRT ]</code></a>
     </td>
   </tr>
   <tr>
@@ -80,8 +70,8 @@ Instead of scrolling through walls of text, explore the core systems loaded into
         <img src="https://img.shields.io/badge/Strapi_CMS-111111?style=flat-square&logo=strapi&logoColor=ff6b00" />
         <img src="https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql&logoColor=ff6b00" />
       </p>
-      <a href="https://github.com/LLamaSan/cyber-script"><code>[ INSPECT SOURCE ]</code></a> • 
-      <a href="https://LLamaSan.github.io/pixelbox"><code>[ LAUNCH IN CRT ]</code></a>
+      <a href="https://github.com/Raafid-Shah/cyber-script"><code>[ INSPECT SOURCE ]</code></a> • 
+      <a href="https://raafid-shah.github.io/pixelbox-v2/"><code>[ LAUNCH IN CRT ]</code></a>
     </td>
     <td width="50%" valign="top">
       <h4>📺 CARTRIDGE 04 // PIXELBOX ENGINE</h4>
@@ -95,8 +85,8 @@ Instead of scrolling through walls of text, explore the core systems loaded into
         <img src="https://img.shields.io/badge/GLSL_Shaders-111111?style=flat-square&logo=opengl&logoColor=ff6b00" />
         <img src="https://img.shields.io/badge/Canvas_2D-111111?style=flat-square&logo=javascript&logoColor=ff6b00" />
       </p>
-      <a href="https://github.com/LLamaSan/pixelbox"><code>[ INSPECT SOURCE ]</code></a> • 
-      <a href="https://LLamaSan.github.io/pixelbox"><code>[ ▶ LIVE DEMO ]</code></a>
+      <a href="https://github.com/Raafid-Shah/pixelbox-v2"><code>[ INSPECT SOURCE ]</code></a> • 
+      <a href="https://raafid-shah.github.io/pixelbox-v2/"><code>[ ▶ LIVE DEMO ]</code></a>
     </td>
   </tr>
 </table>
@@ -115,3 +105,4 @@ Instead of scrolling through walls of text, explore the core systems loaded into
 │ > SYSTEMS & NATIVE :: Tauri v2, Linux, Git Monorepo Workflows, CI/CD         │
 │ > CURRENT FOCUS    :: Low-Latency Web Apps, Agentic AI Pipelines & Graphics  │
 └──────────────────────────────────────────────────────────────────────────────┘
+```

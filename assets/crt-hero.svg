@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 340" width="100%" height="100%">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#000000" stroke-width="1.5" opacity="0.45" />
+    </pattern>
+    <radialGradient id="screenGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a1612" />
+      <stop offset="100%" stop-color="#0a0908" />
+    </radialGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'Courier New', Courier, monospace; font-weight: bold; }
+    .amber { fill: #ff6b00; }
+    .dim { fill: #8c5228; }
+    .white { fill: #f4f4f6; }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.82; transform: scale(0.992); }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes scanmove {
+      0% { transform: translateY(-340px); }
+      100% { transform: translateY(340px); }
+    }
+    .cta-box { animation: pulse 2.2s infinite ease-in-out; transform-origin: center; }
+    .cursor { animation: blink 1s infinite; }
+    .scanbar { animation: scanmove 6s linear infinite; }
+  </style>
+  <rect width="840" height="340" rx="22" fill="#141416" stroke="#2a2a2e" stroke-width="4" />
+  <rect x="16" y="16" width="808" height="308" rx="14" fill="url(#screenGrad)" stroke="#ff6b00" stroke-width="1.5" stroke-opacity="0.4" />
+  <text x="42" y="48" class="mono dim" font-size="12">SYS.BOOT // PIXELBOX_OS v2.0</text>
+  <text x="615" y="48" class="mono dim" font-size="12">RES: 480x270 @ 60FPS [WebGL2]</text>
+  <line x1="42" y1="60" x2="798" y2="60" stroke="#ff6b00" stroke-width="1" stroke-opacity="0.25" />
+  <text x="42" y="92" class="mono amber" font-size="14">> INITIALIZING CRT SHADER PIPELINE... OK</text>
+  <text x="42" y="116" class="mono amber" font-size="14">> MOUNTING CARTRIDGES: [LIVETUBE] [TETRODORO] [CYBER_SCRIPT]... OK</text>
+  <text x="42" y="140" class="mono white" font-size="14">> OPERATOR: RAAFID RIAZ SHAH // FULL-STACK & SYSTEMS ENGINEER<tspan class="cursor amber">_</tspan></text>
+  <g filter="url(#glow)">
+    <text x="420" y="198" text-anchor="middle" class="mono amber" font-size="38" letter-spacing="6">PIXELBOX WORKSTATION</text>
+  </g>
+  <text x="420" y="224" text-anchor="middle" class="mono dim" font-size="13" letter-spacing="2">FLOATING CRT TV • CUSTOM 2D CANVAS UI ENGINE • GLSL SHADERS</text>
+  <g class="cta-box">
+    <rect x="235" y="246" width="370" height="46" rx="6" fill="#ff6b00" />
+    <text x="420" y="275" text-anchor="middle" class="mono" fill="#0a0908" font-size="17" letter-spacing="1.5">▶ CLICK MONITOR TO BOOT LIVE OS</text>
+  </g>
+  <rect x="16" y="16" width="808" height="40" fill="#ff6b00" opacity="0.04" class="scanbar" />
+  <rect x="16" y="16" width="808" height="308" rx="14" fill="url(#scanlines)" pointer-events="none" />
+  <circle cx="806" cy="310" r="4.5" fill="#2ea44f" filter="url(#glow)" />
+</svg>
